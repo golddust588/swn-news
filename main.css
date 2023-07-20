@@ -1,0 +1,52 @@
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 768px;
+}
+
+header {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 3rem;
+}
+
+i {
+    font-size: 3rem;
+}
+
+main {
+    padding: 0 2rem;
+    background-color: rgb(239, 243, 243);
+}
+
+main:nth-child(1) {
+
+}
+
+h1 {
+    font-size: 8rem;
+    margin: 0;
+    padding: 3rem 0;
+}
+
+.article-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+article {
+    background-color: rgb(216, 216, 213);
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+article img {
+    width: 100%;
+}
