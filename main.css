@@ -167,6 +167,7 @@ article h4 {
 
 .black {
     background-color: black;
+    margin-top: 2rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -265,7 +266,6 @@ article h4 {
         padding: 2rem;
         display: flex;
         height: 350px;
-
     }
     
     article img {
@@ -301,10 +301,35 @@ article h4 {
         grid-row: 1;
     }
 
-    .article-wrapper article:nth-child(4) div h4 {
+    .desktop-article div h4 {
         font-size: 3rem;
     }
+
+    .button-wrapper {
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .big-button-wrapper {
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+    }
     
+    .small-button {
+        width: 400px;
+    }
+    
+    .button-wrapper h2 {
+        margin-bottom: 1rem;
+    }
+    
+    .big-button {
+        min-width: 670px;
+    }
 
-
+    .black {
+        margin: 0;
+        background-color: black;
+    }
 }
